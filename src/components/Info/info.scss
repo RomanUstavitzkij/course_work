@@ -1,0 +1,24 @@
+.info {
+  width: 100%;
+  &_desc {
+    margin: 200px auto;
+    width: 50%;
+    background: rgba(225, 225, 225, 0.8);
+    &-text{
+      padding: 50px 100px;
+      color: black;
+      font-size: 24px;
+    }
+    &-links{
+      padding: 20px 100px 50px 100px;
+      color: black;
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .info_desc{
+    width: 80%;
+  }
+}

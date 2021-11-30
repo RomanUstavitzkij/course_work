@@ -1,0 +1,18 @@
+.photo{
+  width: 100%;
+  height: max-content;
+  &_block{
+    width: 50%;
+    margin: 50px auto;
+    &-img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .photo .photo_block{
+    width: 80%;
+  }
+}
